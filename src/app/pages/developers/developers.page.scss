@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* ion toolbar background, font family */
+ion-toolbar{
+    --background:#FFCF40;
+    font-family: 'Bebas Neue', cursive;
+}
+/* ion title font size */
+ion-title{
+    font-size: 25px;
+}
+/* background color of content/ion app */
+.content-backg{
+    --background: #FFDC73;
+}
+/* ion card background color*/
+ion-card{
+    --background:#FFBF00;
+}
+/* ion card subtitle css */
+ion-card-subtitle{
+    --color:black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+/* ion card subtitle css */

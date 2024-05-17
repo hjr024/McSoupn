@@ -1,0 +1,145 @@
+<ion-app>
+  <ion-header>
+    <ion-row>
+      <ion-col size="2">
+      </ion-col>
+      <ion-col size="2" offset="8">
+        <ion-icon name="airplane-sharp"></ion-icon>
+        <ion-icon name="wifi-sharp"></ion-icon>
+        <ion-icon name="battery-full"></ion-icon>
+      </ion-col>
+    </ion-row>
+      <!-- header -->
+    <ion-toolbar>
+      <ion-title>Home | Mc Soup'in</ion-title>
+      <ion-buttons slot="start">
+        <ion-menu-button menu="main-menu"></ion-menu-button>
+      </ion-buttons>
+    </ion-toolbar>
+    </ion-header>
+  <!-- image slide -->
+  <ion-content class="ion-padding">
+    <ion-searchbar showCancelButton="never"></ion-searchbar>
+    <ion-slides pager="true">
+      <ion-slide>
+        <img src="assets/slidepicture/MAMI2.jpg" height="250" width="250">
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="assets/slidepicture/Bulalo.jpg" height="250" width="250">
+      </ion-slide>
+  
+      <ion-slide>
+        <img src="assets/slidepicture/papaitan.jpg" height="250" width="250">
+      </ion-slide>
+    </ion-slides>
+
+    <!-- Recipes you might like -->
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Recipes You Might Like</ion-card-title>
+        <ion-card-subtitle>Recipe recommendations for you</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-slides>
+          <ion-slide>
+            <ion-card-title class="mightlike1">
+            <img src="assets/recipesmightlike/stuffpep1.jpg" routerLink="/stuffedpepper" height="250" width="250">
+            Stuffed Pepper Soup
+            </ion-card-title>
+          </ion-slide>
+      
+          <ion-slide>
+            <ion-card-title class="mightlike1">
+            <img src="assets/recipesmightlike/chessychow1.jpg" routerLink="/cheesyham" height="250" width="250">
+            Cheesy Ham Chowder
+            </ion-card-title>
+          </ion-slide>
+      
+          <ion-slide>
+            <ion-card-title class="mightlike1">
+            <img src="assets/recipesmightlike/tomburg1.jpg" routerLink="/tomatohamburger" height="250" width="250">
+            Tomato Hamburger Soup
+            </ion-card-title>
+          </ion-slide>
+          
+        </ion-slides>
+        <ion-row>
+          <ion-col>
+            <div></div>
+          </ion-col>
+          <ion-col>
+            <div></div>
+          </ion-col>
+          <ion-col>
+            <ion-button color="light" routerLink="/souprecipes">See more</ion-button>
+          </ion-col>
+        </ion-row>
+  
+      </ion-card-content>
+    </ion-card>
+    <!-- image clickable -->
+    <br>
+    <ion-img src="assets/pictures/sellers.jpg" routerLink="/bestsellers"></ion-img>
+    
+    <!-- image clickable -->
+    <br>
+    <ion-img src="assets/pictures/favs.jpg" routerLink="/alltimefav"></ion-img>
+    <!-- Videos you might like -->
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Videos You Might Like</ion-card-title>
+        <ion-card-subtitle>Video recommendations for you</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-slides>
+          <ion-slide>
+            <ion-card-title class="mightlike1">
+              <iframe width="270" height="200" src="https://www.youtube.com/embed/rzDmdMNEOdE?autoplay=1&mute=1"></iframe>
+            </ion-card-title>
+          </ion-slide>
+      
+          <ion-slide>
+            <iframe width="270" height="200" src="https://www.youtube.com/embed/9dat47v112U?autoplay=1&mute=1"></iframe>
+          </ion-slide>
+      
+          <ion-slide>
+            <iframe width="270" height="200" src="https://www.youtube.com/embed/WhwatyAKfM8?autoplay=1&mute=1"></iframe>
+          </ion-slide>
+        </ion-slides>
+      </ion-card-content>
+    </ion-card>
+    <!-- ion fab with ion fab list (links of my social media accounts) -->
+  <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+    <ion-fab-button color="dark">
+      <ion-icon name="arrow-back-circle-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="start">
+      <ion-fab-button color="dark" href="https://www.facebook.com/">
+        <ion-icon name="logo-facebook" color="primary"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="dark" href="https://twitter.com/">
+        <ion-icon name="logo-twitter" color="secondary"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="dark" href="https://www.instagram.com/">
+        <ion-icon name="logo-instagram" color="danger"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+  </ion-content>
+  <!-- script -->
+  <script>
+    var slides = document.querySelector('ion-slides');
+
+    slides.options = {
+    initialSlide: 1,
+    speed: 400
+    }
+  </script>
+    <!-- footer -->
+  <ion-footer align="center">
+    <ion-toolbar>
+      <ion-title>&trade;Mc Soup'in | 2021</ion-title>
+    </ion-toolbar>
+  </ion-footer>
+</ion-app>

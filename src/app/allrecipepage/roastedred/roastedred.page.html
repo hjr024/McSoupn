@@ -1,0 +1,86 @@
+<ion-app>
+  <ion-header>
+    <ion-row>
+      <ion-col size="2">
+      </ion-col>
+      <ion-col size="2" offset="8">
+        <ion-icon name="airplane-sharp"></ion-icon>
+        <ion-icon name="wifi-sharp"></ion-icon>
+        <ion-icon name="battery-full"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-toolbar>
+      <ion-title>Roasted Red Pepper Soup</ion-title>
+      <ion-button color="dark" routerLink="/souprecipes"><ion-icon name="arrow-back-circle" color="warning"></ion-icon></ion-button>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="content-backg">
+  <ion-card>
+        <!-- Roasted red pepper soup card header and image-->
+        <img src="assets/recipepics/roastedred.jpg" height="400" width="350">
+        <ion-card-header>
+          <ion-card-title>Roasted Red Pepper Soup</ion-card-title>
+          <ion-button (click)="showBook()" color="light"><ion-icon name="bookmark"></ion-icon>Bookmark Recipe</ion-button>
+          <ion-button (click)="showSave()" color="light"><ion-icon name="save"></ion-icon>Save Recipe</ion-button>
+        </ion-card-header>
+
+        <ion-card-content>
+          <!-- ion list ingredients and directions -->
+          <ion-list>
+            <ion-item-group>
+              <ion-item-divider>
+                <ion-label>Ingredients:</ion-label>
+              </ion-item-divider>
+    
+              <ion-item>
+                <ion-label>2 tbsp.  olive oil</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>1 large onion, chopped</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>4 cloves garlic, smashed</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>Kosher salt </ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>Pepper</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>1 tsp.  ground coriander</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>2 12-ounce jars roasted red <br>peppers, drained and coarsely <br>chopped</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>1 15-ounce can chickpeas, rinsed</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>1 32-ounce container low-sodium <br>chicken or vegetable broth</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>2 tbsp. sherry vinegar</ion-label>
+              </ion-item>
+              <ion-item lines="none">
+                <ion-label>Toasted sliced almonds, sliced <br>scallions and chopped cilantro,<br> for serving</ion-label>
+              </ion-item>
+              <ion-item-divider>
+                <ion-label>Directions:</ion-label>
+              </ion-item-divider>
+              <ion-item lines="none">
+                <ion-label>
+                  Heat large Dutch oven on medium.<br> Add oil, then onion and garlic; <br>season with 1/2 teaspoon each <br>salt and pepper and cook, <br>covered, stirring occasionally, <br>5 minutes.  
+                  <br><br>
+                  Uncover, stir in coriander and cook<br> 1 minute. Add red peppers, <br>chickpeas and broth; cover and <br>bring to a boil. Boil 5 minutes, then<br> remove from heat and stir in <br>vinegar.
+                  <br><br>
+                  Using immersion blender (or <br>standard blender, in batches), <br>puree soup until very smooth. <br>Serve topped with almonds, <br>scallions, and cilantro if desired.
+                </ion-label>
+              </ion-item>
+            </ion-item-group>
+          </ion-list>
+        </ion-card-content>
+  </ion-card>
+  </ion-content>
+  </ion-app>

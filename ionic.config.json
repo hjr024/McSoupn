@@ -1,0 +1,7 @@
+{
+  "name": "BallacilloCelestialProjectSoup",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,68 @@
+<ion-app>
+<ion-header>
+  <ion-row>
+    <ion-col size="2">
+    </ion-col>
+    <ion-col size="2" offset="8">
+      <ion-icon name="airplane-sharp"></ion-icon>
+      <ion-icon name="wifi-sharp"></ion-icon>
+      <ion-icon name="battery-full"></ion-icon>
+    </ion-col>
+  </ion-row>
+  <ion-toolbar>
+    <ion-title>About the App | Mc Soup'in</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu" color="dark"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="content-backg">
+  <!-- About the app -->
+  <ion-card>
+    <p align="center">
+    <img src="assets/pictures/mcsupsuplogo.png" height="250" width="280">
+    </p>
+    <ion-card-header>
+      <ion-card-title>About the App</ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="card-content-text">
+      The purpose of this app is to widen and introduce Mc Soupin to the
+      internet to serve the people 24/7, this app is not only for cold weathers 
+      it is also for your mid night snacks, or just for your breakfast, lunch, and dinner.
+      Since Mc SOupin starts running on the market it gained a lot of likes, and
+      served well for the people.
+    </ion-card-content>
+  </ion-card>
+  <!-- Office Information -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Office Information</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-icon name="home"></ion-icon>Address: 2nd flr. Sm Cherry Antipolo City, Rizal<br>
+      <ion-icon name="call"></ion-icon>Number: 09054321678<br>
+      <ion-icon name="call"></ion-icon>Landline: 85689241<br>
+      <ion-icon name="logo-facebook"></ion-icon><ion-icon name="logo-instagram"></ion-icon>Fb/ig: @soupinhot<br>
+      <ion-icon name="mail"></ion-icon>Email: mc.soupin@gmail.com
+    </ion-card-content>
+  </ion-card>
+      <!-- ion fab with ion fab list (links of my social media accounts) -->
+      <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+        <ion-fab-button color="dark">
+          <ion-icon name="arrow-back-circle-outline"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-list side="start">
+          <ion-fab-button color="dark" href="https://www.facebook.com/">
+            <ion-icon name="logo-facebook" color="primary"></ion-icon>
+          </ion-fab-button>
+          <ion-fab-button color="dark" href="https://twitter.com/">
+            <ion-icon name="logo-twitter" color="secondary"></ion-icon>
+          </ion-fab-button>
+          <ion-fab-button color="dark" href="https://www.instagram.com/">
+            <ion-icon name="logo-instagram" color="danger"></ion-icon>
+          </ion-fab-button>
+        </ion-fab-list>
+      </ion-fab>
+</ion-content>
+</ion-app>

@@ -1,0 +1,67 @@
+<ion-app>
+  <ion-header>
+    <ion-row>
+      <ion-col size="2">
+      </ion-col>
+      <ion-col size="2" offset="8">
+        <ion-icon name="airplane-sharp"></ion-icon>
+        <ion-icon name="wifi-sharp"></ion-icon>
+        <ion-icon name="battery-full"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-toolbar>
+      <ion-title>Tomato Hamburger Soup</ion-title>
+      <ion-button color="dark" routerLink="/souprecipes"><ion-icon name="arrow-back-circle" color="warning"></ion-icon></ion-button>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="content-backg">
+  <ion-card>
+    <!-- Tomato Hamburger Soup card header and image-->
+    <img src="assets/recipepics/tomatohamburger.jpg" height="350" width="350">
+    <ion-card-header>
+      <ion-card-title>Tomato Hamburger Soup</ion-card-title>
+      <ion-button (click)="showBook()" color="light"><ion-icon name="bookmark"></ion-icon>Bookmark Recipe</ion-button>
+      <ion-button (click)="showSave()" color="light"><ion-icon name="save"></ion-icon>Save Recipe</ion-button>
+    </ion-card-header>
+
+    <ion-card-content>
+      <!-- ion list ingredients and directions -->
+      <ion-list>
+        <ion-item-group>
+          <ion-item-divider>
+            <ion-label>Ingredients:</ion-label>
+          </ion-item-divider>
+
+          <ion-item>
+            <ion-label>1 can (46 ounces) V8 juice</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>2 packages (16 ounces each) <br>frozen mixed vegetables</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>1 pound ground beef, cooked and<br> drained</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>1 can (10-3/4 ounces) condensed <br>cream of mushroom soup, <br>undiluted</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>2 teaspoons dried minced onion</ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-label>Salt and pepper to taste</ion-label>
+          </ion-item>
+          <ion-item-divider>
+            <ion-label>Directions:</ion-label>
+          </ion-item-divider>
+          <ion-item lines="none">
+            <ion-label>
+              In a 5-qt. slow cooker, combine the <br>first 5 ingredients. Cover and cook <br>on high for 4-5 hours or until <br>heated through. Season with salt <br>and pepper.
+            </ion-label>
+          </ion-item>
+        </ion-item-group>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  </ion-content>
+  </ion-app>

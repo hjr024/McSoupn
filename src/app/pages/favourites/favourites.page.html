@@ -1,0 +1,89 @@
+<ion-app>
+<ion-header>
+  <ion-row>
+    <ion-col size="2">
+    </ion-col>
+    <ion-col size="2" offset="8">
+      <ion-icon name="airplane-sharp"></ion-icon>
+      <ion-icon name="wifi-sharp"></ion-icon>
+      <ion-icon name="battery-full"></ion-icon>
+    </ion-col>
+  </ion-row>
+  <ion-toolbar>
+    <ion-title>Favourites | Mc Soup'in</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu" color="dark"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="content-backg">
+<!-- Suggested Recipes -->
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Suggested Recipes</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <img src="assets/recipepics/cauliflower.jpg" height="300" width="350">
+    <ion-card-header>
+      <ion-card-title>Cauliflower Soup</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Ingredients · 1 medium head cauliflower, broken into florets · 1 medium carrot, shredded · 1/4 cup chopped celery · 2-1/2 cups water · 2 teaspoons chicken bouillon …
+    </ion-card-content>
+    <ion-row>
+      <ion-col>
+      </ion-col>
+      <ion-col>
+      </ion-col>
+      <ion-col>
+        <ion-button color="light" routerLink="/cauliflower">See Recipe</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-card-content>
+  
+</ion-card>
+<!-- Saved Recipes -->
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Saved Recipes</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <img src="assets/recipepics/blackbean.jpg" height="300" width="350">
+    <ion-card-header>
+      <ion-card-title>Black Bean 'n' Pumpkin Chili</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Ingredients · 2 tablespoons olive oil · 1 medium onion, chopped · 1 medium sweet yellow pepper, chopped · 3 garlic cloves, minced · 2 cans (15 ounces each) black ..
+    </ion-card-content>
+    <ion-row>
+      <ion-col>
+      </ion-col>
+      <ion-col>
+        <ion-button (click)="showRemove()" color="light">Remove</ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="light" routerLink="/blackbean">See Recipe</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-card-content>
+</ion-card>
+    <!-- ion fab with ion fab list (links of my social media accounts) -->
+    <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+      <ion-fab-button color="dark">
+        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-list side="start">
+        <ion-fab-button color="dark" href="https://www.facebook.com/">
+          <ion-icon name="logo-facebook" color="primary"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-button color="dark" href="https://twitter.com/">
+          <ion-icon name="logo-twitter" color="secondary"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-button color="dark" href="https://www.instagram.com/">
+          <ion-icon name="logo-instagram" color="danger"></ion-icon>
+        </ion-fab-button>
+      </ion-fab-list>
+    </ion-fab>
+</ion-content>
+</ion-app>

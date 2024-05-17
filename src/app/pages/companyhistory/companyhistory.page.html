@@ -1,0 +1,51 @@
+<ion-app>
+  <ion-header>
+    <ion-row>
+      <ion-col size="2">
+      </ion-col>
+      <ion-col size="2" offset="8">
+        <ion-icon name="airplane-sharp"></ion-icon>
+        <ion-icon name="wifi-sharp"></ion-icon>
+        <ion-icon name="battery-full"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-toolbar>
+      <ion-title>Company History | Mc Soup'in</ion-title>
+      <ion-buttons slot="start">
+        <ion-menu-button menu="main-menu" color="dark"></ion-menu-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="content-backg">
+    <!-- Company History -->
+    <ion-card>
+      
+      <img src="assets/pictures/abtcompany.jpg" height="250" width="350">
+      
+      <ion-card-header>
+        <ion-card-title>Company History</ion-card-title>
+      </ion-card-header>
+      <ion-card-content class="card-content-text">
+        Mc Soupin is founded on October of 2021 by the 2 close friends from the Technological Institute of the Philippines. Mc Soupin aims to serve every costumer with good and quality food. For every bowls serve will surely satisfy their needs. Mc Soupin is currently taking orders through their online app and their physical store located at Antipolo City.
+      </ion-card-content>
+    </ion-card>
+        <!-- ion fab with ion fab list (links of my social media accounts) -->
+  <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+    <ion-fab-button color="dark">
+      <ion-icon name="arrow-back-circle-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="start">
+      <ion-fab-button color="dark" href="https://www.facebook.com/">
+        <ion-icon name="logo-facebook" color="primary"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="dark" href="https://twitter.com/">
+        <ion-icon name="logo-twitter" color="secondary"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="dark" href="https://www.instagram.com/">
+        <ion-icon name="logo-instagram" color="danger"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+  </ion-content>
+  </ion-app>

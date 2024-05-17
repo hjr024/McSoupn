@@ -1,0 +1,80 @@
+<ion-app>
+  <ion-menu menuId="main-menu" content-id="main">
+
+    <!-- image in side menu -->
+      <ion-toolbar align="center" class="pic-backg">
+        <img src="assets/pictures/mcsupsuplogo.png" width="200" height="180">
+      </ion-toolbar>
+    
+
+    <ion-content class="list-backg">
+      <!-- ion list -->
+      <ion-list>
+        <ion-menu-toggle>
+          <ion-item routerLink="/home" class="home-backg">
+            <ion-icon name="home" slot="start"></ion-icon>
+            <ion-label class="home-design">Home</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle>
+          <ion-item routerLink="/myaccount" class="account-backg">
+            <ion-icon name="person-circle" slot="start"></ion-icon>
+            <ion-label class="account-design">My Account</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle>
+          <ion-item routerLink="/souprecipes" class="recipe-backg">
+            <ion-icon name="reader" slot="start"></ion-icon>
+            <ion-label class="recipe-design">Soup Recipes</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle>
+          <ion-item routerLink="/products" class="product-backg">
+            <ion-icon name="cube" slot="start"></ion-icon>
+            <ion-label class="product-design">Products</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle>
+          <ion-item routerLink="/favourites" class="fav-backg">
+            <ion-icon name="star" slot="start"></ion-icon>
+            <ion-label class="fav-design">Favourites</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle>
+          <ion-item routerLink="/shoppinglist" class="shop-backg">
+            <ion-icon name="cart" slot="start"></ion-icon>
+            <ion-label class="shop-design">Shopping List/Cart</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle>
+          <ion-item routerLink="/abouttheapp" class="about-backg">
+            <ion-icon name="information-circle" slot="start"></ion-icon>
+            <ion-label class="about-design">About the app</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle>
+          <ion-item routerLink="/companyhistory" class="about-backg">
+            <ion-icon name="book" slot="start"></ion-icon>
+            <ion-label class="about-design">Company History</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle>
+          <ion-item routerLink="/developers" class="dev-design">
+            <ion-icon name="people-circle" slot="start"></ion-icon>
+            <ion-label class="dev-design">Developers</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <!-- router -->
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>

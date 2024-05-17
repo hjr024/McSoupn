@@ -1,0 +1,95 @@
+<ion-app>
+  <ion-header>
+    <ion-row>
+      <ion-col size="2">
+      </ion-col>
+      <ion-col size="2" offset="8">
+        <ion-icon name="airplane-sharp"></ion-icon>
+        <ion-icon name="wifi-sharp"></ion-icon>
+        <ion-icon name="battery-full"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-toolbar>
+      <ion-title>Creamy White Chili</ion-title>
+      <ion-button color="dark" routerLink="/souprecipes"><ion-icon name="arrow-back-circle" color="warning"></ion-icon></ion-button>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="content-backg">
+  <ion-card>
+      <!-- Black Bean 'n' Pumpkin Chili card header and image-->
+      <img src="assets/recipepics/creamywhite.jpg" height="350" width="350">
+      <ion-card-header>
+        <ion-card-title>Creamy White Chili</ion-card-title>
+        <ion-button (click)="showBook()" color="light"><ion-icon name="bookmark"></ion-icon>Bookmark Recipe</ion-button>
+        <ion-button (click)="showSave()" color="light"><ion-icon name="save"></ion-icon>Save Recipe</ion-button>
+      </ion-card-header>
+    
+      <ion-card-content>
+        <!-- ion list ingredients and directions -->
+        <ion-list>
+          <ion-item-group>
+            <ion-item-divider>
+              <ion-label>Ingredients:</ion-label>
+            </ion-item-divider>
+  
+            <ion-item>
+              <ion-label>1 tablespoon olive oil</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>1 pound skinless, boneless <br>chicken breast halves, cut into <br>1/2-inch cubes</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>1 onion, chopped</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>2 cloves garlic, chopped</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>2 (15.5 ounce) cans great <br>Northern beans, rinsed and <br>drained</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>1 (14.5 ounce) can chicken broth</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>2 (4 ounce) cans chopped <br>green chiles</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>1 teaspoon salt</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>1 teaspoon ground cumin</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>1 teaspoon dried oregano</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>½ teaspoon ground black pepper</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>¼ teaspoon cayenne pepper</ion-label>
+            </ion-item>
+            <ion-item>
+              <ion-label>1 cup sour cream</ion-label>
+            </ion-item>
+            <ion-item lines="none">
+              <ion-label>½ cup heavy whipping cream</ion-label>
+            </ion-item>
+            <ion-item-divider>
+              <ion-label>Directions:</ion-label>
+            </ion-item-divider>
+            <ion-item lines="none">
+              <ion-label>
+                Heat olive oil in a large saucepan <br>over medium heat; cook and stir <br>chicken, onion, and garlic into the <br>hot oil until chicken is no longer <br>pink in the center and the juices <br>run clear, 10 to 15 minutes.
+                <br><br>
+                Mix Great Northern beans, chicken <br>broth, green chiles, salt, cumin,<br> oregano, black pepper, and <br>cayenne pepper into chicken <br>mixture; bring to a boil. Reduce <br>heat and simmer until flavors <br>have blended, about 30 minutes.
+                <br><br>
+                Remove chili from heat; stir in sour <br>cream and whipping cream until <br>incorporated.
+              </ion-label>
+            </ion-item>
+          </ion-item-group>
+        </ion-list>
+      </ion-card-content>
+  </ion-card>
+  </ion-content>
+  </ion-app>

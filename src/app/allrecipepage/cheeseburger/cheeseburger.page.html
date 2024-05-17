@@ -1,0 +1,102 @@
+<ion-app>
+  <ion-header>
+    <ion-row>
+      <ion-col size="2">
+      </ion-col>
+      <ion-col size="2" offset="8">
+        <ion-icon name="airplane-sharp"></ion-icon>
+        <ion-icon name="wifi-sharp"></ion-icon>
+        <ion-icon name="battery-full"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-toolbar>
+      <ion-title>CheeseBurger Paradise Soup</ion-title>
+      <ion-button color="dark" routerLink="/souprecipes"><ion-icon name="arrow-back-circle" color="warning"></ion-icon></ion-button>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="content-backg">
+  
+  <ion-card>
+    <!-- cheeseburger paradise soup card header and image-->
+    <img src="assets/recipepics/cheeseburger.jpg" height="350" width="350">
+    <ion-card-header>
+      <ion-card-title>CheeseBurger Paradise Soup</ion-card-title>
+      <ion-button (click)="showBook()" color="light"><ion-icon name="bookmark"></ion-icon>Bookmark Recipe</ion-button>
+      <ion-button (click)="showSave()" color="light"><ion-icon name="save"></ion-icon>Save Recipe</ion-button>
+    </ion-card-header>
+
+    <ion-card-content>
+      <!-- ion list ingredients and directions -->
+      <ion-list>
+        <ion-item-group>
+          <ion-item-divider>
+            <ion-label>Ingredients:</ion-label>
+          </ion-item-divider>
+
+          <ion-item>
+            <ion-label>6 medium potatoes, peeled <br>and cubed</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>1 small carrot, grated</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>1 small onion, chopped</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>1/2 cup chopped green pepper</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>2 tablespoons chopped <br>seeded jalapeno pepper</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>3 cups water</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>2 tablespoons plus 2 teaspoons <br>beef bouillon granules</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>2 garlic cloves, minced</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>1/8 teaspoon pepper</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>2 pounds ground beef</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>1/2 pound sliced fresh mushrooms</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>2 tablespoons butter</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>5 cups 2% milk, divided</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>6 tablespoons all-purpose flour</ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label>1 package (16 ounces) Velveeta,<br> cubed</ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-label>Crumbled cooked bacon</ion-label>
+          </ion-item>
+          <ion-item-divider>
+            <ion-label>Directions:</ion-label>
+          </ion-item-divider>
+          <ion-item lines="none">
+            <ion-label>
+              In a Dutch oven, bring the first 9 <br>ingredients to a boil. Reduce <br>heat; cover and simmer for 10-<br>15 minutes or until potatoes are <br>tender.
+              <br><br>
+              Meanwhile, in a large skillet, <br>cook beef and mushrooms in <br>butter over medium heat until <br>meat is no longer pink; drain. <br>Add to soup. Stir in 4 cups milk;<br> heat through.
+              <br><br>
+              In a small bowl, combine flour <br>and remaining milk until smooth;<br> gradually stir into soup. Bring to<br> a boil; cook and stir for 2 minutes <br>or until thickened. Reduce heat; <br>stir in cheese until melted. <br>Garnish with bacon.
+            </ion-label>
+          </ion-item>
+        </ion-item-group>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  </ion-content>
+  </ion-app>

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* ion toolbar background, font family */
+ion-toolbar{
+    --background:#FFCF40;
+    font-family: 'Bebas Neue', cursive;
+}
+/* ion title font size */
+ion-title{
+    font-size: 25px;
+}
+/* ion content/ion padding background */
+.ion-padding{
+    --background: #FFDC73;
+}
+/* ion menu color */
+ion-menu-button{
+    --color:black;
+}
+/* ion searchbar color */
+ion-searchbar{
+    --background:white;
+}
+
+/* ion card title/ion card subtitle */
+ion-card-title{
+    font-family: 'Bebas Neue', cursive;
+}
+ion-card-subtitle{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+}
+.mightlike1{
+    font-size: 20px;
+}
+ion-card{
+    --background:#FFBF00;
+}
+ion-button{
+    font-family: 'Bebas Neue', cursive;
+}

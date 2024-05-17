@@ -1,0 +1,269 @@
+<ion-app>
+<ion-header>
+  <ion-row>
+    <ion-col size="2">
+    </ion-col>
+    <ion-col size="2" offset="8">
+      <ion-icon name="airplane-sharp"></ion-icon>
+      <ion-icon name="wifi-sharp"></ion-icon>
+      <ion-icon name="battery-full"></ion-icon>
+    </ion-col>
+  </ion-row>
+  <ion-toolbar>
+    <ion-title>Products | Mc Soup'in</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu" color="dark"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="content-backg">
+ <!-- Bulalo-->
+ <ion-card>
+  <img src="assets/productpics/bulalo1.jpg" height="250" width="350">
+  <ion-card-header>
+    <ion-card-title>Bulalo</ion-card-title>
+    <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+  </ion-card-header>
+
+  <ion-card-content>
+    One of the most popular, and arguably most delicious, soups out there, is the classic Bulalo, or beef shank stew. great to sip and enjoy, especially during long, cool nights.
+  </ion-card-content>
+  <ion-row>
+    <ion-col>
+      <div></div>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showConfirm()" color="light"><ion-icon name="cart"></ion-icon>Avail</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showAvail()" color="light"><ion-icon name="time"></ion-icon>Reserve</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-card>
+ <!-- Chicken corn soup-->
+ <ion-card>
+  <img src="assets/productpics/chickencornsoup1.jpg" height="250" width="350">
+  <ion-card-header>
+    <ion-card-title>Chicken Corn Soup</ion-card-title>
+    <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star-half"></ion-icon>
+  </ion-card-header>
+
+  <ion-card-content>
+    Chicken and Corn soup is a simple yet nutritious soup recipe that requires boneless chicken and shredded corn kernels. 
+  </ion-card-content>
+  <ion-row>
+    <ion-col>
+      <div></div>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showConfirm()" color="light"><ion-icon name="cart"></ion-icon>Avail</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showAvail()" color="light"><ion-icon name="time"></ion-icon>Reserve</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-card>
+ <!-- Lapaz Batchoy -->
+ <ion-card>
+  <img src="assets/productpics/lapaz1.jpg" height="300" width="350">
+  <ion-card-header>
+    <ion-card-title>Lapaz Batchoy</ion-card-title>
+    <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+  </ion-card-header>
+
+  <ion-card-content>
+    Batchoy is a soup dish composed of sliced pork, pig’s innards, and miki noodles.This dish originated from the district of La Paz in Iloilo City — in the island of Panay.
+  </ion-card-content>
+  <ion-row>
+    <ion-col>
+      <div></div>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showConfirm()" color="light"><ion-icon name="cart"></ion-icon>Avail</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showAvail()" color="light"><ion-icon name="time"></ion-icon>Reserve</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-card>
+ <!-- chicken mami -->
+ <ion-card>
+  <img src="assets/productpics/chickenmami1.jpg" height="250" width="350">
+  <ion-card-header>
+    <ion-card-title>Chicken Mami</ion-card-title>
+    <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+  </ion-card-header>
+
+  <ion-card-content>
+    Chicken Mami is the Filipino version of Chicken Noodle Soup. It is delicious and perfect to have during the cold weather. This is usually sold in noodle houses or “mamihan” along with other favorites such as Beef Mami, Pares, and Siopao.
+  </ion-card-content>
+  <ion-row>
+    <ion-col>
+      <div></div>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showConfirm()" color="light"><ion-icon name="cart"></ion-icon>Avail</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showAvail()" color="light"><ion-icon name="time"></ion-icon>Reserve</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-card>
+ <!-- mushroom soup -->
+ <ion-card>
+  <img src="assets/productpics/mushroomsoup1.jpg" height="300" width="350">
+  <ion-card-header>
+    <ion-card-title>Mushroom Soup</ion-card-title>
+    <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star-half"></ion-icon>
+  </ion-card-header>
+
+  <ion-card-content>
+    Use the everyday mushrooms we find in our grocery store or use them in combination with some of the more exotic varieties. Experiment and have fun - All will be good.
+  </ion-card-content>
+  <ion-row>
+    <ion-col>
+      <div></div>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showConfirm()" color="light"><ion-icon name="cart"></ion-icon>Avail</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showAvail()" color="light"><ion-icon name="time"></ion-icon>Reserve</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-card>
+ <!-- Papaitan -->
+ <ion-card>
+  <img src="assets/productpics/papaitan1.jpg" height="250" width="350">
+  <ion-card-header>
+    <ion-card-title>Papaitan</ion-card-title>
+    <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+  </ion-card-header>
+
+  <ion-card-content>
+    Papaitan is a famous Ilocano soup dish mostly composed of cow or goat innards. The name of this dish was derived from the Filipino word “Pait”, which means “bitter”. The bitter taste of this soup comes from the bile. This is a bitter juice extracted by the liver and stored in the gallbladder to aid digestion.
+  </ion-card-content>
+  <ion-row>
+    <ion-col>
+      <div></div>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showConfirm()" color="light"><ion-icon name="cart"></ion-icon>Avail</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showAvail()" color="light"><ion-icon name="time"></ion-icon>Reserve</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-card>
+ <!-- Creamy white potato soup -->
+ <ion-card>
+  <img src="assets/productpics/potatosoup1.jpg" height="300" width="350">
+  <ion-card-header>
+    <ion-card-title>Creamy white potato soup</ion-card-title>
+    <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+  </ion-card-header>
+
+  <ion-card-content>
+    This creamy potato soup is pure comfort food, especially welcome when the temperatures take a plunge. I serve this often...it's a simple supper that can be prepared in a short time.
+  </ion-card-content>
+  <ion-row>
+    <ion-col>
+      <div></div>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showConfirm()" color="light"><ion-icon name="cart"></ion-icon>Avail</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showAvail()" color="light"><ion-icon name="time"></ion-icon>Reserve</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-card>
+ <!-- Sinigang na baboy -->
+ <ion-card>
+  <img src="assets/productpics/sinigangbaboy1.jpg" height="250" width="350">
+  <ion-card-header>
+    <ion-card-title>Sinigang na Baboy</ion-card-title>
+    <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+  </ion-card-header>
+
+  <ion-card-content>
+    Sinigang na Baboy is the ultimate comfort food! Made with pork ribs, vegetables, and tamarind-flavored broth, it’s hearty and delicious on its own or served with steamed rice.
+  </ion-card-content>
+  <ion-row>
+    <ion-col>
+      <div></div>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showConfirm()" color="light"><ion-icon name="cart"></ion-icon>Avail</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showAvail()" color="light"><ion-icon name="time"></ion-icon>Reserve</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-card>
+ <!-- Tinolang manok -->
+ <ion-card>
+  <img src="assets/productpics/tinola1.jpg" height="250" width="350">
+  <ion-card-header>
+    <ion-card-title>Tinolang Manok</ion-card-title>
+    <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+  </ion-card-header>
+
+  <ion-card-content>
+    Tinolang Manok is the ultimate comfort food! Made of chicken, green papaya, fresh spinach, and a ginger-flavored broth, this Filipino soup is hearty, healthy, and tasty.
+  </ion-card-content>
+  <ion-row>
+    <ion-col>
+      <div></div>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showConfirm()" color="light"><ion-icon name="cart"></ion-icon>Avail</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showAvail()" color="light"><ion-icon name="time"></ion-icon>Reserve</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-card>
+ <!-- Turkey white bean soup -->
+ <ion-card>
+  <img src="assets/productpics/whitebean1.jpg" height="250" width="350">
+  <ion-card-header>
+    <ion-card-title>Turkey White Bean Soup</ion-card-title>
+    <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star-half"></ion-icon>
+  </ion-card-header>
+
+  <ion-card-content>
+    Packed with veggies, turkey, color and nutrition, this hearty soup will warm ’em up right down to their toes. For an extra-special touch, top with shredded Parmesan cheese.
+  </ion-card-content>
+  <ion-row>
+    <ion-col>
+      <div></div>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showConfirm()" color="light"><ion-icon name="cart"></ion-icon>Avail</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button (click)="showAvail()" color="light"><ion-icon name="time"></ion-icon>Reserve</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-card>
+    <!-- ion fab with ion fab list (links of my social media accounts) -->
+    <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+      <ion-fab-button color="dark">
+        <ion-icon name="arrow-back-circle-outline"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-list side="start">
+        <ion-fab-button color="dark" href="https://www.facebook.com/">
+          <ion-icon name="logo-facebook" color="primary"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-button color="dark" href="https://twitter.com/">
+          <ion-icon name="logo-twitter" color="secondary"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-button color="dark" href="https://www.instagram.com/">
+          <ion-icon name="logo-instagram" color="danger"></ion-icon>
+        </ion-fab-button>
+      </ion-fab-list>
+    </ion-fab>
+</ion-content>
+</ion-app>

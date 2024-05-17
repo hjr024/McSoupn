@@ -1,0 +1,130 @@
+<ion-app>
+<ion-header>
+  <ion-row>
+    <ion-col size="2">
+    </ion-col>
+    <ion-col size="2" offset="8">
+      <ion-icon name="airplane-sharp"></ion-icon>
+      <ion-icon name="wifi-sharp"></ion-icon>
+      <ion-icon name="battery-full"></ion-icon>
+    </ion-col>
+  </ion-row>
+  <ion-toolbar>
+    <ion-title>All Time Favorite | Mc Soup'in</ion-title>
+    <ion-button color="dark" routerLink="/home"><ion-icon name="arrow-back-circle" color="warning"></ion-icon></ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="content-backg">
+  <!-- Roasted Tomato Soup-->
+  <ion-card>
+    <img src="assets/recipepics/roastedtomato.jpg" height="300" width="350">
+    <ion-card-header>
+      <ion-card-title>Roasted Tomato Soup</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Roast your tomatoes. Preheat oven to 400 degrees F. Line a large baking sheet with parchment paper. Place halved tomatoes and garlic cloves on …
+    </ion-card-content>
+    <ion-row>
+      <ion-col>
+        <div></div>
+      </ion-col>
+      <ion-col>
+        <ion-button (click)="showFav()" color="light"><ion-icon name="heart"></ion-icon>Add to Favorites</ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="light" routerLink="/roastedtomato">See Recipe</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+    <!-- Tomato Hamburger Soup -->
+    <ion-card>
+      <img src="assets/recipepics/tomatohamburger.jpg" height="300" width="350">
+      <ion-card-header>
+        <ion-card-title>Tomato Hamburger Soup</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        1 can (46 ounces) V8 juice · 2 packages (16 ounces each) frozen mixed vegetables · 1 pound ground beef, cooked and drained · 1 can (10-3/4 ounces) condensed cream …
+      </ion-card-content>
+      <ion-row>
+        <ion-col>
+          <div></div>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="showFav()" color="light"><ion-icon name="heart"></ion-icon>Add to Favorites</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button color="light" routerLink="/tomatohamburger">See Recipe</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+    <!-- Cauliflower Soup-->
+    <ion-card>
+      <img src="assets/recipepics/cauliflower.jpg" height="300" width="350">
+      <ion-card-header>
+        <ion-card-title>Cauliflower Soup</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Ingredients · 1 medium head cauliflower, broken into florets · 1 medium carrot, shredded · 1/4 cup chopped celery · 2-1/2 cups water · 2 teaspoons chicken bouillon …
+      </ion-card-content>
+      <ion-row>
+        <ion-col>
+          <div></div>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="showFav()" color="light"><ion-icon name="heart"></ion-icon>Add to Favorites</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button color="light" routerLink="/cauliflower">See Recipe</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+    <!-- CheeseBurger Paradise Soup-->
+    <ion-card>
+      <img src="assets/recipepics/cheeseburger.jpg" height="300" width="350">
+      <ion-card-header>
+        <ion-card-title>CheeseBurger Paradise Soup</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Ingredients · 6 medium potatoes, peeled and cubed · 1 small carrot, grated · 1 small onion, chopped · 1/2 cup chopped green pepper · 2 tablespoons chopped seeded …
+      </ion-card-content>
+      <ion-row>
+        <ion-col>
+          <div></div>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="showFav()" color="light"><ion-icon name="heart"></ion-icon>Add to Favorites</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button color="light" routerLink="/cheeseburger">See Recipe</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+    <!-- Cheesy Ham Chowder-->
+    <ion-card>
+      <img src="assets/recipepics/cheesyham.jpg" height="300" width="350">
+      <ion-card-header>
+        <ion-card-title>Cheesy Ham Chowder</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        My five children all agree that this soothing recipe is wonderful. The soup is full of potatoes, carrots and ham. The best part is that I can get it on the …
+      </ion-card-content>
+      <ion-row>
+        <ion-col>
+          <div></div>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="showFav()" color="light"><ion-icon name="heart"></ion-icon>Add to Favorites</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button color="light" routerLink="/cheesyham">See Recipe</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+</ion-content>
+</ion-app>
